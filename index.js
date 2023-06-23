@@ -29,7 +29,9 @@ function countdownToVacation() {
 function countdownToVacationCompleted() {
   clearInterval(TIMER_INTERVAL)
   document.getElementById("vacation-countdown").style.display = "none"
-  document.getElementById("header-text").innerText = `Enjoy your vacation!`
+  document.getElementById(
+    "header-text"
+  ).innerText = `Enjoy your vacation Boss (and family)!`
   return
 }
 // Initialize the function
